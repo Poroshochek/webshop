@@ -20,7 +20,7 @@ class ComposerStaticInit6f3fe7a802cf13c8bc83be04b0f7fe85
     public static $prefixDirsPsr4 = array (
         'webshop\\' => 
         array (
-            0 => __DIR__ . '/..' . '/webshop',
+            0 => __DIR__ . '/..' . '/webshop/core',
         ),
         'app\\' => 
         array (
