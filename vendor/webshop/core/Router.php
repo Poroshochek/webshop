@@ -27,9 +27,21 @@ class Router
     public static function dispatch($url)
     {
         if (self::matchRoute($url)) {
-            echo "OK";
+            $controller = 'app\controllers\\' . self::$route['prefix'] .
+                self::$route['controller'] . 'Controller';
+            if (class_exists($controller)) {
+                $controllerObject = new $controller(self::$route);
+                $action = self::lowerCase(self::$route['action']) . 'Action';
+                if (method_exists($controllerObject, $action)) {
+                    $controllerObject->$action();
+                } else {
+                    throw  new \Exception("Method $action in $controller Not found =(");
+                }
+            } else {
+                throw new \Exception("Controller $controller not found =(");
+            }
         } else {
-            throw new \Exception();
+            throw new \Exception("Page not found =(", 404);
         }
     }
 
@@ -51,13 +63,25 @@ class Router
                 } else {
                     $route['prefix'] .= '\\';
                 }
+
+                $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
-                debug(self::$route);
 
                 return true;
             }
         }
 
         return false;
+    }
+
+    protected static function upperCamelCase ($name)
+    {
+        return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
+
+    }
+
+    protected static function lowerCase ($name)
+    {
+        return lcfirst(self::upperCamelCase($name));
     }
 }
