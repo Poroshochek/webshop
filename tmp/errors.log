@@ -50,3 +50,5 @@
 ==========================================
 [2018-04-18 20:46:19] Error text: Page not Found | file: /opt/lampp/htdocs/webshop/public/index.php | String: 8 
 ==========================================
+[2018-04-19 14:35:12] Error text: Undefined class constant 'routes' | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 38 
+==========================================

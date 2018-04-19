@@ -14,10 +14,10 @@ define("LAYOUT", 'default');
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 
 // http://localhost:8080/webshop/public/
-$app_path = preg_replace("#[^/]+$#", "", $app_path);
+$app_path = preg_replace("#[^/]+$#", '', $app_path);
 
 // http://localhost:8080/webshop/
-$app_path = str_replace("/public/", '', $app_path);
+$app_path = str_replace('/public/', '', $app_path);
 
 define("PATH", $app_path);
 define("ADMIN", PATH . '/admin');
