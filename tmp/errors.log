@@ -52,3 +52,61 @@
 ==========================================
 [2018-04-19 14:35:12] Error text: Undefined class constant 'routes' | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 38 
 ==========================================
+[2018-04-19 19:46:29] Error text:  | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 32 
+==========================================
+[2018-04-19 19:56:58] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 32 
+==========================================
+[2018-04-19 19:59:10] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 32 
+==========================================
+[2018-04-19 19:59:25] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 32 
+==========================================
+[2018-04-19 20:08:10] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 34 
+==========================================
+[2018-04-19 20:09:29] Error text: Call to undefined function webshop\srt_replace() | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 70 
+==========================================
+[2018-04-19 20:09:35] Error text: Call to undefined function webshop\srt_replace() | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 70 
+==========================================
+[2018-04-19 20:10:17] Error text: Call to undefined function webshop\srt_replace() | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 70 
+==========================================
+[2018-04-19 20:20:13] Error text: Class 'app\controllers\ControllerController' not found | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 33 
+==========================================
+[2018-04-19 20:20:35] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 39 
+==========================================
+[2018-04-19 20:21:18] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 39 
+==========================================
+[2018-04-19 20:21:22] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 39 
+==========================================
+[2018-04-19 20:23:41] Error text: Controller app\controllers\PageController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-04-19 20:24:06] Error text: Method indexAction in app\controllers\MainController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 38 
+==========================================
+[2018-04-20 09:09:54] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-04-20 09:10:00] Error text: Controller app\controllers\PageController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-04-20 09:10:20] Error text: Method asdasdaAction in app\controllers\ViewController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 38 
+==========================================
+[2018-04-20 09:29:58] Error text: Method asdasdaAction in app\controllers\ViewController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 38 
+==========================================
+[2018-04-20 09:51:15] Error text: View C:\xampp\htdocs\webshop/app/views/View/index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:51:49] Error text: View C:\xampp\htdocs\webshop/app\views\View\index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:51:51] Error text: View C:\xampp\htdocs\webshop/app\views\View\index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:52:00] Error text: View C:\xampp\htdocs\webshop/appviews/View/index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:52:21] Error text: View C:\xampp\htdocs\webshop/app/views/View/index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:53:05] Error text: View C:\xampp\htdocs\webshop/app/views/View/index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:55:23] Error text: View C:\xampp\htdocs\webshop/app/views/View/index.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 38 
+==========================================
+[2018-04-20 09:56:01] Error text: Controller app\controllers\PageController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 42 
+==========================================
+[2018-04-20 09:56:05] Error text: Controller app\controllers\PageController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 42 
+==========================================
+[2018-04-20 11:26:40] Error text: Could not connect base tamplate C:\xampp\htdocs\webshop/app/views/layouts/asd.php | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 48 
+==========================================
+[2018-04-20 11:27:25] Error text: Could not connect base tamplate  | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 48 
+==========================================
