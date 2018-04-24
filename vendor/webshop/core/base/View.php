@@ -29,8 +29,9 @@ class View
         }
     }
 
-    public function render()
+    public function render($data)
     {
+        if (is_array($data)) extract($data);
         $viewFile = APP . "/views/{$this->prefix}{$this->contoller}/{$this->view}.php";
         if (file_exists($viewFile)) {
             ob_start();
@@ -41,7 +42,7 @@ class View
         }
 
         if ($this->layout !== false) {
-            $layoutFile = APP . "/views/layouts/{$this->layout}.php";
+            $layoutFile = APP . "/views/Layouts/{$this->layout}.php";
             if (is_file($layoutFile)) {
                 require_once $layoutFile;
             } else {
@@ -52,6 +53,10 @@ class View
 
     public function getMeta()
     {
+        $output = '<title>' . $this->meta['title'] . '</title>' . PHP_EOL;
+        $output .= '<meta name="description" content="' . $this->meta['desc'] .'"></meta>' . PHP_EOL;
+        $output .= '<meta name="keywords" content="' . $this->meta['keywords'] .'"></meta>' . PHP_EOL;
 
+        return $output;
     }
 }

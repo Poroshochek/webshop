@@ -110,3 +110,9 @@
 ==========================================
 [2018-04-20 11:27:25] Error text: Could not connect base tamplate  | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 48 
 ==========================================
+[2018-04-24 20:57:02] Error text: Could not connect base tamplate  | file: /opt/lampp/htdocs/webshop/vendor/webshop/core/base/View.php | String: 48 
+==========================================
+[2018-04-24 20:57:40] Error text: Could not connect base tamplate  | file: /opt/lampp/htdocs/webshop/vendor/webshop/core/base/View.php | String: 48 
+==========================================
+[2018-04-24 21:13:26] Error text: Class 'app\controllers\App' not found | file: /opt/lampp/htdocs/webshop/app/controllers/MainController.php | String: 13 
+==========================================
