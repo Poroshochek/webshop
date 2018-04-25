@@ -110,3 +110,27 @@
 ==========================================
 [2018-04-20 11:27:25] Error text: Could not connect base tamplate  | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 48 
 ==========================================
+[2018-04-24 20:57:02] Error text: Could not connect base tamplate  | file: /opt/lampp/htdocs/webshop/vendor/webshop/core/base/View.php | String: 48 
+==========================================
+[2018-04-24 20:57:40] Error text: Could not connect base tamplate  | file: /opt/lampp/htdocs/webshop/vendor/webshop/core/base/View.php | String: 48 
+==========================================
+[2018-04-24 21:13:26] Error text: Class 'app\controllers\App' not found | file: /opt/lampp/htdocs/webshop/app/controllers/MainController.php | String: 13 
+==========================================
+[2018-04-25 10:31:16] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 45 
+==========================================
+[2018-04-25 10:47:02] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 40 
+==========================================
+[2018-04-25 10:47:42] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 40 
+==========================================
+[2018-04-25 10:48:39] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 40 
+==========================================
+[2018-04-25 10:48:45] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 40 
+==========================================
+[2018-04-25 10:49:18] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 40 
+==========================================
+[2018-04-25 10:50:59] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-04-25 10:51:04] Error text: Method viewAction in app\controllers\PageController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-04-25 14:18:27] Error text: We don`t have connection with DB!!! | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Db.php | String: 23 
+==========================================
