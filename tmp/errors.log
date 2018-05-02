@@ -442,3 +442,139 @@
 ==========================================
 [2018-04-27 14:19:19] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
 ==========================================
+[2018-05-02 09:58:51] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY base DESC' at line 2 | file: C:\xampp\htdocs\webshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 188 
+==========================================
+[2018-05-02 09:59:18] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY base DESC' at line 2 | file: C:\xampp\htdocs\webshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 188 
+==========================================
+[2018-05-02 10:04:39] Error text: Class 'app\controllers\App' not found | file: C:\xampp\htdocs\webshop\app\controllers\AppController.php | String: 16 
+==========================================
+[2018-05-02 10:05:35] Error text: Class 'app\controllers\App' not found | file: C:\xampp\htdocs\webshop\app\controllers\AppController.php | String: 16 
+==========================================
+[2018-05-02 10:07:44] Error text: Too few arguments to function webshop\Registry::setProperty(), 1 passed in C:\xampp\htdocs\webshop\app\controllers\AppController.php on line 17 and exactly 2 expected | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Registry.php | String: 13 
+==========================================
+[2018-05-02 10:07:54] Error text: Too few arguments to function webshop\Registry::setProperty(), 1 passed in C:\xampp\htdocs\webshop\app\controllers\AppController.php on line 17 and exactly 2 expected | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Registry.php | String: 13 
+==========================================
+[2018-05-02 10:07:56] Error text: Too few arguments to function webshop\Registry::setProperty(), 1 passed in C:\xampp\htdocs\webshop\app\controllers\AppController.php on line 17 and exactly 2 expected | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Registry.php | String: 13 
+==========================================
+[2018-05-02 10:08:56] Error text: Class 'app\controllers\App' not found | file: C:\xampp\htdocs\webshop\app\controllers\AppController.php | String: 17 
+==========================================
+[2018-05-02 11:12:12] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 11:12:35] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 11:15:21] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:39:28] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:39:39] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:40:11] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:40:19] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:40:38] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:45:29] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:45:56] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:55:37] Error text: Class 'app\widgets\currency\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\currency\Currency.php | String: 20 
+==========================================
+[2018-05-02 13:56:09] Error text: Class 'app\widgets\currency\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\currency\Currency.php | String: 20 
+==========================================
+[2018-05-02 13:56:21] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:56:51] Error text: Class 'app\widgets\currency\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\currency\Currency.php | String: 20 
+==========================================
+[2018-05-02 13:56:51] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:57:26] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:58:10] Error text: Class 'app\widgets\currency\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\currency\Currency.php | String: 20 
+==========================================
+[2018-05-02 13:58:10] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:58:16] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 13:59:43] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:01:25] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:02:21] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:02:30] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:03:42] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:03:49] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:03:57] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:12:25] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:15:09] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:15:15] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:19:23] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:21:48] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:21:54] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:23:31] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:23:48] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:24:18] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:24:20] Error text: Call to undefined method app\controllers\CurrencyController::getView() | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 39 
+==========================================
+[2018-05-02 14:24:30] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:24:32] Error text: Call to undefined method app\controllers\CurrencyController::getView() | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 39 
+==========================================
+[2018-05-02 14:24:34] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:34:10] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:34:14] Error text: Class 'R' not found | file: C:\xampp\htdocs\webshop\app\controllers\CurrencyController.php | String: 12 
+==========================================
+[2018-05-02 14:35:45] Error text: Class 'R' not found | file: C:\xampp\htdocs\webshop\app\controllers\CurrencyController.php | String: 12 
+==========================================
+[2018-05-02 14:36:24] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:36:26] Error text: Class 'R' not found | file: C:\xampp\htdocs\webshop\app\controllers\CurrencyController.php | String: 12 
+==========================================
+[2018-05-02 14:37:22] Error text: Class 'R' not found | file: C:\xampp\htdocs\webshop\app\controllers\CurrencyController.php | String: 12 
+==========================================
+[2018-05-02 14:38:25] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:38:29] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:38:32] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:38:33] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 14:38:52] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:27:45] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:27:51] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:28:01] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:28:11] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:36:57] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:38:19] Error text: Too few arguments to function webshop\Registry::setProperty(), 1 passed in C:\xampp\htdocs\webshop\app\views\Main\index.php on line 45 and exactly 2 expected | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Registry.php | String: 13 
+==========================================
+[2018-05-02 15:38:39] Error text: Too few arguments to function webshop\Registry::setProperty(), 1 passed in C:\xampp\htdocs\webshop\app\views\Main\index.php on line 45 and exactly 2 expected | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Registry.php | String: 13 
+==========================================
+[2018-05-02 15:38:41] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:39:47] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-02 15:39:49] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
