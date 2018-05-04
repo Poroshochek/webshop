@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ESoluk
- * Date: 03.05.2018
- * Time: 12:08
- */
+
+<li>
+    <a href="?id=<?=$id;?>"><?=$category['title'];?></a>
+    <?php if(isset($category['childs'])): ?>
+        <ul>
+            <?= $this->getMenuHtml($category['childs']);?>
+        </ul>
+    <?php endif; ?>
+</li>

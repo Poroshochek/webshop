@@ -578,3 +578,83 @@
 ==========================================
 [2018-05-02 15:39:49] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
 ==========================================
+[2018-05-03 11:36:01] Error text: Class 'app\widgets\menu\Cache' not found | file: C:\xampp\htdocs\webshop\app\widgets\menu\Menu.php | String: 39 
+==========================================
+[2018-05-03 11:37:25] Error text: Class 'app\widgets\menu\Cache' not found | file: C:\xampp\htdocs\webshop\app\widgets\menu\Menu.php | String: 39 
+==========================================
+[2018-05-03 15:28:51] Error text: Class 'app\widgets\menu\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\menu\Menu.php | String: 42 
+==========================================
+[2018-05-03 15:29:57] Error text: Class 'app\widgets\menu\App' not found | file: C:\xampp\htdocs\webshop\app\widgets\menu\Menu.php | String: 42 
+==========================================
+[2018-05-04 10:24:32] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 10:56:57] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:01:04] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:01:09] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:03:57] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:04:39] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:04:41] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:12:03] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:21:37] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:21:59] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:24:46] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:26:04] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:29:58] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:30:48] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:31:37] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:31:39] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:31:41] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:31:54] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 11:38:36] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:13:30] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:14:13] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:15:17] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:15:18] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:15:19] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 13:15:25] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:07:04] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:19:27] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:19:46] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:20:11] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:37:33] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:39:37] Error text: Controller app\controllers\CategoryController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-05-04 15:39:47] Error text: Controller app\controllers\CategoryController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-05-04 15:39:55] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:41:07] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:41:10] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-05-04 15:41:23] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================

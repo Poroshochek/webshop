@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ESoluk
- * Date: 25.04.2018
- * Time: 15:59
- */
 
 namespace webshop;
 
@@ -32,7 +26,7 @@ class Cache
         if (file_exists($file)) {
             $content = unserialize(file_get_contents($file));
             if (time() <= $content['end_time']) {
-                return $content;
+                return $content['data'];
             }
             unlink($file);
         }
