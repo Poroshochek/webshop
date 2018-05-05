@@ -11,9 +11,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
     <!--Custom-Theme-files-->
+
+    <link rel="stylesheet" href="megamenu/css/style.css">
+    <link rel="stylesheet" href="megamenu/css/ionicons.min.css">
+
     <!--theme-style-->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -61,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--top-header-->
 <!--start-logo-->
 <div class="logo">
-    <a href="index.html"><h1>Luxury Watches</h1></a>
+    <a href=""><h1>Luxury Watches</h1></a>
 </div>
 <!--start-logo-->
 <!--bottom-header-->
@@ -69,11 +74,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="container">
         <div class="header">
             <div class="col-md-9 header-left">
-
-                <div class="menu">
-                    <?php new \app\widgets\menu\Menu([
-                        'ptl' => WWW. '/menu_tpl/menu_tpl.php',
-                    ]); ?>
+                <div class="menu-container">
+                    <div class="menu">
+                        <?php new \app\widgets\menu\Menu([
+                            'tpl' => WWW. '/menu/menu.php',
+                        ]); ?>
+                    </div>
                 </div>
 
 <!--                <div class="top-nav">-->
@@ -300,9 +306,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--start-menu-->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/simpleCart.min.js"> </script>
-<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/memenu.js"></script>
-<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+
+<!-- my-megamenu -->
+<script src="megamenu/js/megamenu.js"></script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 

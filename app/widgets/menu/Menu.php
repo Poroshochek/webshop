@@ -13,6 +13,7 @@ class Menu
     protected $menuHtml;
     protected $tpl;
     protected $container = 'ul';
+    protected $class = 'menu';
     protected $table = 'category';
     protected $cache = 3600;
     protected $cacheKey = 'webshopMenu';
@@ -55,7 +56,16 @@ class Menu
 
     protected function output()
     {
-        echo $this->menuHtml;
+        $attrs = '';
+        if (!empty($this->attrs)) {
+            foreach ($this->attrs as $k => $v) {
+                $attrs .= " $k='$v' ";
+            }
+        }
+        echo "<{$this->container} class='{$this->class}' $attrs>";
+            echo $this->prepend;
+            echo $this->menuHtml;
+        echo "</{$this->container}>";
     }
 
     protected function getTree()
