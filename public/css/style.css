@@ -1680,8 +1680,9 @@ a.add-cart {
     padding: 0.4em 0.8em;
     font-size: 1.15em;
     text-transform: uppercase;
-    margin-top: 2em;
+    margin-top: 1.5em;
     display: inline-block;
+    float: right;
 }
 a.add-cart:hover {
 	background: #73b6e1;
@@ -3071,4 +3072,9 @@ ul.tag-men {
 
 .product-one > .product-left {
 	padding-bottom: 10px;
+}
+
+.quantiy {
+    margin-top: 1.9em;
+    float: left;
 }

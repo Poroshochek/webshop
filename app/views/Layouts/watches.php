@@ -12,6 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
     <!--Custom-Theme-files-->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
     <!--theme-style-->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
@@ -198,7 +199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/imagezoom.js"></script>
 <script defer src="js/jquery.flexslider.js"></script>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
 <script>
     // Can also be used with $(document).ready()
     $(window).load(function() {
