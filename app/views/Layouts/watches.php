@@ -50,12 +50,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
+                    <a href="shop/show" onclick="getCart(); return false;">
                         <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt="" />
+                            <img src="images/cart-1.png" alt="" />
+                            <?php if (!empty($_SESSION['cart'])) : ?>
+                                <p><span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] .
+                                $_SESSION['cart.currency']['symbol_right']; ?></span>
+                            <?php else : ?>
+                                <p><span class="simpleCart_total">Карзина пуста</span>
+                            <?php endif; ?>
+                        </div>
                     </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -209,23 +214,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/responsiveslides.min.js"></script>
 <script>
     // You can also use "$(window).load(function() {"
-    $(function () {
-        // Slideshow 4
-        $("#slider4").responsiveSlides({
-            auto: true,
-            pager: true,
-            nav: true,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
-        });
-
-    });
+    // $(function () {
+    //     // Slideshow 4
+    //     $("#slider4").responsiveSlides({cart box_1
+    //         auto: true,
+    //         pager: true,
+    //         nav: true,
+    //         speed: 500,
+    //         namespace: "callbacks",
+    //         before: function () {
+    //             $('.events').append("<li>before event fired.</li>");
+    //         },
+    //         after: function () {
+    //             $('.events').append("<li>after event fired.</li>");
+    //         }
+    //     });
+    //
+    // });
 </script>
 
 <script src="js/imagezoom.js"></script>

@@ -18,6 +18,21 @@ $('body').on('click', '.add-to-card-link', function(e){
     });
 });
 
+$('#cart .modal-body').on('click', '.del-item', function () {
+    let id = $(this).data('id');
+    $.ajax({
+        url: '/webshop/cart/delete',
+        data: {id: id},
+        type: 'GET',
+        success: function (res) {
+            showCart(res);
+        },
+        error: function() {
+            alert('Oooooups, something wrong!');
+        }
+    })
+});
+
 function showCart(cart) {
     if ($.trim(cart) == '<h3>Корзина пуста</h3>') {
      $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
@@ -26,7 +41,26 @@ function showCart(cart) {
     }
     $('#cart .modal-body').html(cart);
     $('#cart').modal();
+    if ($('.cart-sum').text()) {
+        $('.simpleCart_total').html($('#cart .cart-sum').text());
+    } else {
+        $('.simpleCart_total').text('Карзина пустая');
+    }
 }
+
+function getCart() {
+    $.ajax({
+        url: '/webshop/cart/show',
+        type: 'GET',
+        success: function (res) {
+            showCart(res);
+        },
+        error: function () {
+            console.log('Error! Please try again later');
+        }
+    });
+}
+
 
 /*Cart*/
 
