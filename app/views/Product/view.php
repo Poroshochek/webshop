@@ -3,8 +3,9 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Single</li>
+                <?php if ($breadcrumbs) : ?>
+                    <?php echo $breadcrumbs; ?>
+                <?php endif; ?>
             </ol>
         </div>
     </div>
@@ -23,7 +24,7 @@
                                 <ul class="slides">
                                     <?php foreach ($gallery as $item) : ?>
                                         <li data-thumb="images/<?=$item->img;?>">
-                                            <div class="thumb-image"> <img src="images/<?=$item->img;?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                                            <div class="thumb-image"> <img src="images/<?=$item->img;?>" data-imagezoom="true" class="img-responsive" alt="wathces image"/> </div>
                                         </li>
                                     <?php endforeach; ?>
                                 </ul>
@@ -56,21 +57,22 @@
                                 <div class="clearfix"> </div>
                             </div>
 
-                            <h5 class="item_price"><?=$curr['symbol_left']?><?=$product->price*$curr['value']?><?=$curr['symbol_right']?></h5>
+                            <h5 class="item_price" id="base-price" data-base="<?=$product->price*$curr['value']?>"><?=$curr['symbol_left']?><?=$product->price*$curr['value']?><?=$curr['symbol_right']?></h5>
                             <?php if ($product->old_price) : ?>
 <!--                                <small>-->
                                     <del><?=$curr['symbol_left']?><?=$product->old_price*$curr['value']?><?=$curr['symbol_right']?></del>
 <!--                                </small>-->
                             <?php endif; ?>
                             <p><?= $product->content; ?></p>
+                            <?php if ($mods) : ?>
                             <div class="available">
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
+                                            <option>Выбрать цвет</option>
+                                            <?php foreach($mods as $mod) : ?>
+                                                <option data-title="<?=$mod->title;?>" data-price="<?=$mod->price*$curr['value'];?>" value="<?=$mod->id;?>"><?=$mod->title;?></option>
+                                            <?php endforeach; ?>
                                         </select></li>
                                     <li class="size-in">Size<select>
                                             <option>Large</option>
@@ -82,6 +84,7 @@
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
+                            <?php endif; ?>
                             <ul class="tag-men">
                                 <li><span>Category</span>
                                     <span>: <a href="category/<?=$cats[$product->category_id]['alias'];?>">
@@ -139,6 +142,40 @@
                         <h3>С этим товаром так же покупают:</h3>
                         <div class="product-one">
                             <?php foreach ($related as $prod) : ?>
+                                <div class="col-md-4 product-left p-left">
+                                    <div class="product-main simpleCart_shelfItem">
+                                        <a href="product/<?=$prod['alias']?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$prod['img']?>" alt="" /></a>
+                                        <div class="product-bottom">
+                                            <h3><a href="product/<?=$prod['alias']?>"><?=$prod['alias']?></a></h3>
+                                            <p>Explore Now</p>
+                                            <h4>
+                                                <a class="item_add add-to-card-link" href="card/add?id=<?=$prod['id']?>" data-id="<?=$prod['id']?>"><i></i></a>
+                                                <span class=" item_price">
+                                                    <?=$curr['symbol_left']?><?=$prod['price']*$curr['value']?><?=$curr['symbol_right']?>
+                                                    <?php if ($prod['old_price']) : ?>
+                                                        <small>
+                                                    <del><?=$curr['symbol_left']?><?=$prod['old_price']*$curr['value']?><?=$curr['symbol_right']?></del>
+                                                </small>
+                                                    <?php endif; ?>
+                                                </span>
+                                            </h4>
+                                        </div>
+                                        <div class="srch">
+                                            <span>-50%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php if($recentlyViewed) : ?>
+                    <div class="latestproducts">
+                        <h3>Недавно просмотреные:</h3>
+                        <div class="product-one">
+                            <?php foreach ($recentlyViewed as $prod) : ?>
                                 <div class="col-md-4 product-left p-left">
                                     <div class="product-main simpleCart_shelfItem">
                                         <a href="product/<?=$prod['alias']?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$prod['img']?>" alt="" /></a>

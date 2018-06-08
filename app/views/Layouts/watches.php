@@ -165,9 +165,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--footer-end-->
 
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+                <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal-end -->
+
+
+
+<?php $current = \webshop\App::$app->getProperty('currency'); ?>
+<script>
+    var path = "<?=PATH;?>",
+        cource = "<?=$curr['value'];?>",
+        symbolLeft = "<?=$curr['symbol_left'];?>",
+        symbolRight = "<?=$curr['symbol_right'];?>";
+</script>
+
 <!--start-menu-->
 <script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <!-- my-megamenu -->
 <script src="megamenu/js/megamenu.js"></script>
