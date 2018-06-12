@@ -4,6 +4,7 @@ namespace app\controllers;
 
 
 use webshop\App;
+use app\models\Cart;
 
 class CurrencyController extends AppController
 {
@@ -12,12 +13,13 @@ class CurrencyController extends AppController
         $currency = !empty($_GET['curr']) ? $_GET['curr'] : null;
         if ($currency) {
             //get currency from DB
-            //$curr = \R::findOne('currency', 'code = ?', [$currency]);
+            $curr = \R::findOne('currency', 'code = ?', [$currency]);
 
             //get currency from Registry
-            $curr = App::$app->getProperty('currency');
+            //$curr = App::$app->getProperty('currency');
             if (!empty($curr)) {
                 setcookie('currency', $currency, time() + 3600*24*7, '/');
+                Cart::recalc($curr);
             }
         }
         redirect();
