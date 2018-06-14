@@ -90,8 +90,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="search" method="get" autocomplete="off">
+                        <input type="text" class="typeahead" id="typeahead" name="s" placeholder="Поиск по сайту">
+                        <input type="submit" value="">
+                    </form>
+                   <!-- <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                    <input type="submit" value=""> -->
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -204,7 +208,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--start-menu-->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
+<script src="js/typeahead.bundle.js"></script>
 <!-- my-megamenu -->
 <script src="megamenu/js/megamenu.js"></script>
 <!--dropdown-->

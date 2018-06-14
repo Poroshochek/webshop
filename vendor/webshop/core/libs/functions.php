@@ -17,3 +17,7 @@ function redirect($http = false)
     header("location: $redirect");
     exit;
 }
+
+function h($str) {
+    return htmlentities($str);
+}
