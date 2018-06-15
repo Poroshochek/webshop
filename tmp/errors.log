@@ -1986,3 +1986,13 @@
 ==========================================
 [2018-06-14 15:28:44] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '6,7,4 -- keep-cache' at line 1 | file: C:\xampp\htdocs\webshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | String: 188 
 ==========================================
+[2018-06-15 09:27:46] Error text: Controller app\controllers\UserController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-06-15 09:27:51] Error text: Controller app\controllers\UserController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-06-15 09:31:45] Error text: Controller app\controllers\UserController not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 44 
+==========================================
+[2018-06-15 10:57:32] Error text: Method signunAction in app\controllers\UserController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-06-15 10:58:21] Error text: Method signunAction in app\controllers\UserController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
