@@ -22,7 +22,7 @@
 
                     <div class="register-main">
                         <div class="col-md-6 account-left">
-                            <form method="post" action="user/signup" id="signup" role="form">
+                            <form method="post" action="user/signup" id="signup" role="form" data-toggle="validator">
                                 <div class="form-group has-feedback">
                                     <label for="login">Login</label>
                                     <input type="text" name="login" class="form-control" id="login" placeholder="Login" value="<?=isset($_SESSION['form_data']['login']) ? h($_SESSION['form_data']['login']) : '';?>" required>

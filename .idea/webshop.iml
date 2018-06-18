@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/vendor/webshop/core" isTestSource="false" packagePrefix="webshop\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/valitron" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webshop/core" />
     </content>
     <orderEntry type="inheritedJdk" />
