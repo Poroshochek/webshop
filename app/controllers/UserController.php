@@ -10,7 +10,16 @@ class UserController extends AppController
 {
     public function loginAction()
     {
-
+        if (!empty($_POST)) {
+            $user = new User();
+            if ($user->login()) {
+                $_SESSION['success'] = 'Вы успешно авторизовались';
+            } else {
+                $_SESSION['error'] = 'Неверный логин или пароль';
+            }
+            redirect();
+        }
+        $this->setMeta('Login');
     }
 
     public function signupAction()
@@ -37,6 +46,7 @@ class UserController extends AppController
 
     public function logoutAction()
     {
-
+        if (isset($_SESSION['user'])) unset($_SESSION['user']);
+        redirect();
     }
 }

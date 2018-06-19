@@ -59,4 +59,16 @@ class CartController extends AppController
         unset($_SESSION['cart.currency']);
         $this->loadView('cart_modal');
     }
+
+    public function viewAction()
+    {
+        $this->setMeta('Оформление заказа');
+
+
+    }
+
+    public function checkoutAction()
+    {
+        echo 'ordered';
+    }
 }

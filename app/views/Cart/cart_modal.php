@@ -26,7 +26,8 @@
                         <?=$item['price']?>
                     </td>
                     <td>
-                        <span data-id="<?=$id?>" class="glyphicon glyphicon-remove text-danger del-item"></span>
+                        <span data-id="<?=
+                        ?>" class="glyphicon glyphicon-remove text-danger del-item"></span>
                     </td>
                 </tr>
                 <?php endforeach; ?>

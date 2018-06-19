@@ -39,7 +39,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     <div class="btn-group">
                         <a class="dropdown-toggle" data-toggle="dropdown">
-                            Нажмите что бы войти=) <span class="curret"></span>
+                            <?php if (!empty($_SESSION['user'])) : ?>
+                                Вы вошли как <?=h($_SESSION['user']['name']);?>
+                            <?php else : ?>
+                                Нажмите что бы войти=) <span class="curret"></span>
+                            <?php endif; ?>
                         </a>
                         <ul class="dropdown-menu">
                             <?php if (!empty($_SESSION['user'])) : ?>

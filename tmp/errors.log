@@ -2036,3 +2036,53 @@
 ==========================================
 [2018-06-18 16:43:16] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
 ==========================================
+[2018-06-19 14:23:29] Error text: Method indexAction in app\controllers\UserController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-06-19 14:50:39] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:52:54] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:53:12] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:53:48] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:53:52] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:55:57] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 14:59:55] Error text: Call to undefined function debusg() | file: C:\xampp\htdocs\webshop\app\views\Layouts\watches.php | String: 29 
+==========================================
+[2018-06-19 14:59:57] Error text: Call to undefined function debusg() | file: C:\xampp\htdocs\webshop\app\views\Layouts\watches.php | String: 29 
+==========================================
+[2018-06-19 15:04:52] Error text: View C:\xampp\htdocs\webshop/app/views/User/logout.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 41 
+==========================================
+[2018-06-19 15:50:06] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:50:06] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:50:26] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:50:26] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:51:45] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:51:45] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:52:51] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:53:45] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:53:49] Error text: Method checkoutAction in app\controllers\CartController Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 41 
+==========================================
+[2018-06-19 15:54:35] Error text: View C:\xampp\htdocs\webshop/app/views/Cart/checkout.php Not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\base\View.php | String: 41 
+==========================================
+[2018-06-19 15:54:46] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:56:13] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:56:16] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:56:19] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
+[2018-06-19 15:59:36] Error text: Page not found =( | file: C:\xampp\htdocs\webshop\vendor\webshop\core\Router.php | String: 47 
+==========================================
